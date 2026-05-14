@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TekkiMarkkinointi | Kasvua teknologia-alalle</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigointi -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Tekki<span>Markkinointi</span></a>
+            <ul class="nav-links">
+                <li><a href="#palvelut">Palvelut</a></li>
+                <li><a href="#tyot">Työt</a></li>
+                <li><a href="#meista">Meistä</a></li>
+                <li><a href="#artikkelit">Artikkelit</a></li>
+                <li><a href="#yhteys" class="btn-small">Ota yhteyttä</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- Hero-osio taustavideolla -->
+    <header class="hero">
+        <!-- Taustavideo (z-index: 1) -->
+        <video class="hero-bg-video" autoplay loop muted playsinline>
+            <source src="assets/bg.mp4" type="video/mp4">
+        </video>
+        
+        <!-- Tummennuskerros (z-index: 2) -->
+        <div class="hero-overlay"></div>
+
+        <!-- Tekstisisältö (z-index: 3) -->
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Tehokasta mediasuunnittelua ja mitattavaa teknologiamarkkinointia</h1>
+                <p class="subtitle">Asiakkaidensa suosittelema media- ja markkinointitoimisto teknologia-alan yrityksille.</p>
+                <p>Olemme vuonna 2026 perustettu kasvava toimisto. Fokuksemme on erityisesti tehokkaassa mediasuunnittelussa ja mitattavassa taktisessa digimainonnassa B2B- ja SaaS-kentässä.</p>
+                <div class="hero-btns">
+                    <a href="#tyot" class="btn-primary">Tutustu referensseihin</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Palvelut-osio -->
+    <section id="palvelut" class="services">
+        <div class="container">
+            <h2 class="section-title">Markkinointitoimisto, josta saat kaiken tarvitsemasi</h2>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">📊</div>
+                    <h3>Mediasuunnittelu ja -ostaminen</h3>
+                    <p>Me tiedämme, missä tekkipäättäjät piileksivät. Teemme mediasuunnitelman tavoitteidesi mukaan ja optimoimme ostoja jatkuvasti datan perusteella.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">📱</div>
+                    <h3>Sosiaalinen media</h3>
+                    <p>Toteutamme orgaanisen kanavien ylläpidon ja maksetun mainonnan LinkedInissä, Twitterissä ja muissa relevanteissa kanavissa.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🔍</div>
+                    <h3>Hakusanamainonta (SEM)</h3>
+                    <p>Varmistamme, että yrityksesi löytyy, kun asiakkaalla on haku päällä. Optimointi on avainasemassa kustannustehokkuudessa.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">💻</div>
+                    <h3>Ohjelmallinen ostaminen</h3>
+                    <p>Tulospohjaista ja tarkasti kohdennettua mainontaa. Kauttamme saat niin digitaalisen ulkomainonnan kuin audio- ja videomainonnan.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">📈</div>
+                    <h3>Analytiikka ja raportointi</h3>
+                    <p>Teemme päätökset aina dataan pohjaten. Seuraamme tuloksia ja kehitämme tekemistä jatkuvasti paremmalle tasolle.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🎯</div>
+                    <h3>Strategiat ja auditoinnit</h3>
+                    <p>Luomme perustan markkinoinnille auditoimalla nykyisen tekemisen ja rakentamalla selkeän suunnan tulevalle kasvulle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Suositus-osio -->
+    <section class="testimonial">
+        <div class="container">
+            <blockquote class="quote-box">
+                <p>”TekkiMarkkinoinnin kanssa työskentely on ollut alusta asti läpinäkyvää ja joustavaa. Yhteistyö tuntuu aidosti kumppanuudelta. Olemme saaneet lisäkädet markkinointiimme niin strategisella tasolla kuin käytännössä.”</p>
+                <cite>
+                    <strong>Akira Taguchi</strong><br>
+                    Marketing Manager, A Hacker Company
+                </cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Yhteystiedot-osio -->
+    <section id="yhteys" class="contact">
+        <div class="container">
+            <div class="contact-flex">
+                <div class="contact-info">
+                    <h2>Markkinointi ja mainonta mielessä?</h2>
+                    <p>Yli 40 yritystä on uskonut digitaalisen markkinointinsa käsiimme. Ota yhteyttä niin katsotaan teille järkevä suunnitelma!</p>
+                    <ul class="contact-details">
+                        <li><strong>📞 Puh:</strong> +358 696 969 6969</li>
+                        <li><strong>📧 Email:</strong> moi@tekkimarkkinointi.fi</li>
+                        <li><strong>📍 Osoite:</strong> Mannerheimintie 1 A 64, Helsinki</li>
+                    </ul>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <input type="text" placeholder="Nimi" required>
+                        <input type="email" placeholder="Sähköposti" required>
+                        <input type="tel" placeholder="Puhelinnumero">
+                        <textarea placeholder="Viesti" rows="5"></textarea>
+                        <button type="submit" class="btn-primary">Lähetä viesti</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Tekki<span>Markkinointi</span></a>
+                    <p>© 2026 TekkiMarkkinointi Oy</p>
+                </div>
+                <ul class="footer-links">
+                    <li><a href="#">Etusivu</a></li>
+                    <li><a href="#palvelut">Palvelut</a></li>
+                    <li><a href="#tyot">Työt</a></li>
+                    <li><a href="#meista">Meistä</a></li>
+                    <li><a href="#yhteys">Ota yhteyttä</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
